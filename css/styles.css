@@ -19,10 +19,11 @@ font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;}
+     color: #4d5ae5; 
+    }
 
     .logo-color{
-        color: #4d5ae5;
+        color:#2e2f42;
     } 
 
     .nav-list{
@@ -36,6 +37,7 @@ font-weight: 700;
     
  .address {font-weight: 400;
     font-size: 16px;
+    font-style: normal;
     /* line-height: 24px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -120,6 +122,9 @@ button:focus       {
                 text-align: center;
                 color: #2e2f42;
         }
+        .section-list-team{
+            background-color: #FFFFFF
+        }
             .section-list-team h3 {
                 font-weight: 500;
                     font-size: 20px;
@@ -180,9 +185,9 @@ button:focus       {
             line-height: 1.17;
             letter-spacing: 0.03em;
             text-transform: uppercase;
-            color: #f4f4fd;
+            color:#4d5ae5 ;
     }
-
+     .logo-color-footer{ color:#f4f4fd ;}
        
       .text-footer {
         font-weight: 400;
