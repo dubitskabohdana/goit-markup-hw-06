@@ -111,15 +111,16 @@ button:focus       {
         height: 732px;}
 
         .section-team {
+            text-transform: capitalize;
             font-weight: 700;
                 font-size: 36px;
                /* line-height: 40px; */
-                line-height: 1.1;
+                line-height: 1.11;
                 letter-spacing: 0.02em;
                 text-align: center;
                 color: #2e2f42;
         }
-            .section-list-team p {
+            .section-list-team h3 {
                 font-weight: 500;
                     font-size: 20px;
                     /* line-height: 24px; */
@@ -129,7 +130,8 @@ button:focus       {
                     color: #2e2f42;
             }
                     
-         .section-list-team h3 {font-weight: 400;
+         .section-list-team p {
+            font-weight: 400;
                 font-size: 16px;
             
                 /* line-height: 24px; */
@@ -139,6 +141,7 @@ button:focus       {
                 color: #434455;
         }
        .section-portfolio-start {
+        text-transform: capitalize;
         font-weight: 700;
             font-size: 36px;
             /* line-height: 40px; */
@@ -180,13 +183,7 @@ button:focus       {
             color: #f4f4fd;
     }
 
-        .logo-footer-color {
-            color: #4d5ae5;
-            
-        }
-        .footer-color-two{
-            color: #f4f4fd
-        }
+       
       .text-footer {
         font-weight: 400;
             font-size: 16px;
