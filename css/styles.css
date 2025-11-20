@@ -50,7 +50,6 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 24px 15px;
     align-items:baseline;
     }
     
