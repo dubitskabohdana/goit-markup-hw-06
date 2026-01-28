@@ -28,6 +28,7 @@ h1,h2, h3,h4, p {
 
 img{
     display: block;
+    max-width: 100%;
 }
 
 .container {
@@ -628,8 +629,7 @@ flex-direction: column;
                   }
 
                 .form-footer {
-                    display: flex;
-                    justify-content: flex-end;
+                    margin-left: auto;
                 }
                   
 
@@ -665,7 +665,7 @@ flex-direction: column;
 
 
 
-            hide-popup{
+            .hide-popup{
                 opacity: 0;
                 pointer-events: none;
                 user-select: none;
