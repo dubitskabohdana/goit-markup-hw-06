@@ -344,7 +344,7 @@
       </main>
 
  <footer class="footer-page">
-     <div class="container footer-container"  >
+     <div class="container footer-container">
   <div class=" item-location">
     <a class="logo-footer" href="./index.html">Web<span class="logo-color-footer">Studio</span> </a>
       
@@ -374,21 +374,20 @@
       </svg> </a> </li>
     </ul> 
    </div>
-       <div >
-        <p class="media-footer" >Subscribe</p>
-        <div class="Subscribe-footer">
-        <input class="email-footer" type="email" name="useremail" placeholder="E-mail">
-
-          <button type="submit" class="button-footer">  Subscribe 
-            <a class="icon-telegram" href="#"> <svg width="24" height="24">
-                <use href="./images/icons.svg#icon-svgtelegram"></use>
-              </svg> </a>
-          
-          </button>
-        </div>
-       </div>
-
-   </div> </footer>
+      <div>
+        <p class="media-footer">Subscribe</p>
+      
+        <form class="subscribe-footer">
+          <input class="email-footer" type="email" name="useremail" placeholder="E-mail" required>
+          <button type="submit" class="button-footer">
+            Subscribe
+            <svg class="icon-telegram" width="24" height="24" aria-hidden="true">
+              <use href="./images/icons.svg#icon-svgtelegram"></use>
+            </svg></button>
+        </form> </div>
+      </div>
+      
+     </footer>
 
 <div class="backform hide-popup ">
   <div class="all-form">
@@ -399,7 +398,7 @@
     </button>
     
 
-    <form>
+    <form >
       <div class="form-field-wrapper">
       <label class="label-input" for="username">Name</label>
      
@@ -438,7 +437,7 @@
 
       </div>
      
-      <div class="form-field-wrapper">
+      <div class=" textarea-after ">
         <label class="label-input" for="comment">Comment</label>
         
         <textarea class="comment-textarea"
@@ -454,7 +453,7 @@
           <use href="./images/icons.svg#icon-svgicon-agree"></use>
         </svg>
       </span>I accept the terms and conditions of the <a href="/" class="accent" >Privacy Policy</a></label> </div>
-      <div>
+      <div class="button-send">
         <button type="submit" class="header-page-button"> <span class="text-button"> Send </span></button>
       </div>
     </form>

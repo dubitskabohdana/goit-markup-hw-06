@@ -616,35 +616,35 @@ flex-direction: column;
                                     color: #fff;
                                 }
 
-                  .Subscribe-footer{
-                    display: inline-flex;
-
+                  .subscribe-footer{
+                    display: flex;
+                    gap: 24px;
                   }
                   
 
-                                .button-footer {
-                                    display: flex;
-                                    align-items: center;
-                                   
-                                    justify-content: center;
-                                    gap: 8px;
-                                    
-                
-                                    border-radius: 4px;
-                                    padding: 8px 24px;
-                                    min-width: 165px;
-                                    height: 40px;
-                                    background-color: #4d5ae5;
-                                    cursor: pointer;
-                                    border: none;
-                
-                                    font-weight: 500;
-                                    font-size: 16px;
-                                    line-height: 1;
-                                    letter-spacing: 0.04em;
-                                    color: #fff;
-                                    transition: background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
-                                }
+                .button-footer {
+                    display: flex;
+                    align-items: center;
+        
+                    justify-content: center;
+                    gap: 16px;
+        
+        
+                    border-radius: 4px;
+                    padding: 8px 24px;
+                    min-width: 165px;
+                    height: 40px;
+                    background-color: #4d5ae5;
+                    cursor: pointer;
+                    border: none;
+        
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    letter-spacing: 0.04em;
+                    color: #fff;
+                    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                }
 
          .button-footer:focus,
          .button-footer:hover
@@ -662,7 +662,7 @@ flex-direction: column;
                 opacity: 0;
                 pointer-events: none;
                 user-select: none;
-              visibility: hidden;
+              visibility:hidden ;
             
             }
 
@@ -688,14 +688,13 @@ flex-direction: column;
           .all-form {
             position: relative;
             width: 408px;
-            height: 80%;
-            max-height: 584px;
+           
             border-radius: 4px;
-            overflow: auto;
+            
             box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
             background-color: #fcfcfc;
-            padding-left: 24px;   
-            padding-right: 24px;       }
+            padding:72px 24px 24px 24px;   
+                   }
 
 
         .close-popup {
@@ -747,7 +746,8 @@ flex-direction: column;
                 text-align: center;
                 color: #2e2f42;
                 font-family: "Roboto", sans-serif;
-                margin: 72px 0 16px 0;
+                
+                    margin-bottom: 16px;
 
         }
 
@@ -799,12 +799,18 @@ flex-direction: column;
 
         .accent {
             text-decoration: underline;
+            color: #4d5ae5;
 
         }
+                .backform .accent {
+                    color: #4d5ae5;
+                }
 
-        .form-field-wrapper {
+        .form-field-wrapper  {
             margin-bottom: 8px;
         }
+
+    
 
                 .comment-textarea {
                     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -838,8 +844,10 @@ flex-direction: column;
                                          color: #8e8f99; 
                                         
                                         }
+  .textarea-after {margin-bottom: 16px;
 
-                                    .label-policy-field-wrapper {
+  }
+                                        .label-policy-field-wrapper {
                                         margin-bottom: 24px;
                                     }
 
@@ -862,3 +870,5 @@ flex-direction: column;
                     background-color: #404BBF;
                     fill:#fff
                   }
+
+                  
