@@ -20,7 +20,7 @@
     <header class="page-header-start">
       <div class="container header-container">
       <nav class="nav-link">
-        <a class="logo" href="./index.html">Web<span class="logo-color">Studio</span></a>
+        <a class="logo header-logo" href="./index.html">Web<span class="logo-color">Studio</span></a>
         <ul class="nav-list">
           <li  > 
             <a href="./index.html"
@@ -37,7 +37,7 @@
         </ul>
       </nav>
 
-      <address >
+      <address class="contacts">
        <ul class="contact-mail-tel">
        <li>
         <a href="mailto:info@devstudio.com" class="address" >info@devstudio.com</a>
@@ -46,10 +46,68 @@
         <a href="tel:+110001111111" class="address" >+11 (000) 111-11-11</a>
       </li>
       </ul>
-    </address>
+    </address> 
+    <button class="burger-btn" type="button"><svg class="burger-icon" width="24" height="24">
+      <use href="./images/icons.svg#icon-svgmenu-mobile"></use>
+    </svg>
+  </button>
   </div>
+
+   <div class="mobile-menu ">
+    <div class="container mobile-menu-container">
+      <button class="mobile-menu-close" type="button"><svg class="close-icon-menu" width="8" height="8">
+          <use href="./images/icons.svg#icon-svgicon-close"></use>
+        </svg>
+      </button>
+      <nav class="mobile-menu-nav"><ul class="nav-list-menu">
+        <li>
+          <a href="./index.html" class="list-header-menu active"> Studio </a>
+        </li>
+        <li>
+          <a href="" class="list-header-menu"> Portfolio </a>
+        </li>
+        <li>
+          <a href="" class="list-header-menu"> Contacts </a>
+        </li>
+      </ul>
+      </nav></nav>
+      <address >
+        <ul class="contact-mail-tel-menu">
+          <li>
+            <a href="mailto:info@devstudio.com" class="address-menu active">info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="address-menu">+11 (000) 111-11-11</a>
+          </li>
+        </ul>
+      </address>
+      <div><ul class="svg-contact-all-menu">
+        <li>
+          <a class="svg-contact-menu" href="#"> <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram-2"></use>
+            </svg></a>
+        </li>
+        <li>
+          <a class="svg-contact-menu" href="#"> <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter-1"></use>
+            </svg></a>
+        </li>
+        <li>
+          <a class="svg-contact-menu" href="#"> <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook-1"></use>
+            </svg> </a>
+        </li>
+        <li>
+          <a class="svg-contact-menu" href="#"> <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin-1"></use>
+            </svg> </a>
+        </li>
+      </ul></div>
+    </div>
+  </div>
+  
     </header>
-    <main>
+    <main >
       <!-- #region start-button-->
 
         <section class="section-head-page" > 
@@ -120,13 +178,13 @@
       <!-- #endregion description -->
       <!-- #region our-team-->
 
-        <section class="section-back-team" > 
+        <section class="section-back-team " > 
           <div class="container">
           <h2 class="section-team-title">Our Team</h2>
           <ul class="list-team">
             <li class="section-list-team">
               
-              <img src="./images/1.jpg" alt="Mark_Guerrero" width="264">
+              <img srcset="./images/img (1).jpg 2x" src="./images/1.jpg" alt="Mark_Guerrero" width="264">
               <div class="container-team"><h3 class="list-advantages">Mark Guerrero</h3>
               <p class="list-text">Product Designer</p>
            
@@ -151,7 +209,8 @@
           </li>
 
           <li class="section-list-team">
-            <img src="./images/2.jpg" alt="Tom_Ford" width="264">
+            <img srcset="./images/2(2x).jpg 2x"
+                src="./images/2.jpg" alt="Tom_Ford" width="264">
             <div class="container-team"><h3 class="list-advantages">Tom Ford</h3>
             <p class="list-text">Frontend Developer</p>
       <ul class="svg-contact-all">
@@ -180,7 +239,8 @@
           </li>
 
           <li class="section-list-team">
-            <img src="./images/img.jpg" alt="Camila_Garcia" width="264">
+            <img srcset="./images/3 (3x).jpg 2x"
+                src="./images/img.jpg" alt="Camila_Garcia" width="264">
             <div class="container-team"> <h3 class="list-advantages">Camila Garcia</h3>
             <p class="list-text">Marketing</p>
           <ul class="svg-contact-all">
@@ -209,7 +269,8 @@
           </li>
     
           <li class="section-list-team">
-            <img src="./images/4.jpg" alt="Danie_Wilson" width="264">
+            <img srcset="./images/4(4x).jpg 2x"
+                src="./images/4.jpg" alt="Danie_Wilson" width="264">
             <div class="container-team"> <h3 class="list-advantages">Daniel Wilson</h3>
             <p class="list-text" >UI Designer</p>
           <ul class="svg-contact-all">
@@ -244,7 +305,7 @@
        <!-- #endregion our-team -->
    
       <!-- #region portfolio-->
-      <section class="section-portfolio">
+      <section class="section-portfolio hiden">
         <div class="container">
         <h2 class="section-portfolio-start">Our Portfolio</h2>
         <ul class="list-portfolio"> 
@@ -343,7 +404,7 @@
      <!-- #endregion portfolio -->
       </main>
 
- <footer class="footer-page">
+ <footer class="footer-page hiden">
      <div class="container footer-container">
   <div class=" item-location">
     <a class="logo-footer" href="./index.html">Web<span class="logo-color-footer">Studio</span> </a>
@@ -389,7 +450,7 @@
       
      </footer>
 
-<div class="backform hide-popup ">
+<div class="backform hide-popup hiden ">
   <div class="all-form">
     <p class="name-form">Leave your contacts and we will call you back</p>
     <button class="close-popup" type="button"><svg class="close-popup-icon" width="8" height="8">
