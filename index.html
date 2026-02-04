@@ -371,10 +371,10 @@
             <li class="list-portfolio-items list-hidden">
               <div class="portfolio-img-wrapper">
                 <img
-                  src="./images/Cash.mob.jpg"
+                  src="./images/cash.mob.jpg"
                   width="288"
                   srcset="
-                    ./images/Cash.mob.jpg   288w,
+                    ./images/cash.mob.jpg   288w,
                     ./images/cash.mob2x.jpg 576w,
                     ./images/cash.tab.jpg   356w,
                     ./images/cash.tab2x.jpg 712w,
@@ -676,7 +676,7 @@
       </div>
     </div>
 
-    <div class="backform hide-popup is-open">
+    <div class="backform hide-popup is-hidden">
       <div class="all-form">
         <p class="name-form">Leave your contacts and we will call you back</p>
         <button class="close-popup" type="button">
@@ -753,14 +753,18 @@
               value="true"
             />
 
-            <label class="label-policy" for="policy"
-              ><span class="custom-checkbox">
-                <svg class="" width="10" height="8">
+            <label class="label-policy" for="policy">
+              <span class="custom-checkbox">
+                <svg width="10" height="8">
                   <use href="./images/icons.svg#icon-svgicon-agree"></use>
-                </svg> </span
-              >I accept the terms and conditions of the
-              <a href="/" class="accent">Privacy Policy</a></label
-            >
+                </svg>
+              </span>
+
+              <span class="policy-text">
+                I accept the terms and conditions of the
+                <a href="/" class="accent">Privacy Policy</a>
+              </span>
+            </label>
           </div>
           <div class="button-send">
             <button type="submit" class="header-page-button">
