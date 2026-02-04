@@ -57,75 +57,6 @@
           </svg>
         </button>
       </div>
-
-      <div class="mobile-menu">
-        <div class="container mobile-menu-container">
-          <button class="mobile-menu-close" type="button">
-            <svg class="close-icon-menu" width="8" height="8">
-              <use href="./images/icons.svg#icon-svgicon-close"></use>
-            </svg>
-          </button>
-          <nav class="mobile-menu-nav">
-            <ul class="nav-list-menu">
-              <li>
-                <a href="./index.html" class="list-header-menu active">
-                  Studio
-                </a>
-              </li>
-              <li>
-                <a href="" class="list-header-menu"> Portfolio </a>
-              </li>
-              <li>
-                <a href="" class="list-header-menu"> Contacts </a>
-              </li>
-            </ul>
-          </nav>
-          <address>
-            <ul class="contact-mail-tel-menu">
-              <li>
-                <a href="mailto:info@devstudio.com" class="address-menu active"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li>
-                <a href="tel:+110001111111" class="address-menu"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-            </ul>
-          </address>
-          <div>
-            <ul class="svg-contact-all-menu">
-              <li>
-                <a class="svg-contact-menu" href="#">
-                  <svg width="24" height="24">
-                    <use href="./images/icons.svg#icon-instagram-2"></use></svg
-                ></a>
-              </li>
-              <li>
-                <a class="svg-contact-menu" href="#">
-                  <svg width="24" height="24">
-                    <use href="./images/icons.svg#icon-twitter-1"></use></svg
-                ></a>
-              </li>
-              <li>
-                <a class="svg-contact-menu" href="#">
-                  <svg width="24" height="24">
-                    <use href="./images/icons.svg#icon-facebook-1"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a class="svg-contact-menu" href="#">
-                  <svg width="24" height="24">
-                    <use href="./images/icons.svg#icon-linkedin-1"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </header>
     <main>
       <!-- #region start-button-->
@@ -216,7 +147,7 @@
           <ul class="list-team">
             <li class="section-list-team">
               <img
-                srcset="./images/img(1).jpg 2x"
+                srcset="./images/1.jpg 1x, ./images/img-1-2x.jpg 2x"
                 src="./images/1.jpg"
                 alt="Mark_Guerrero"
                 width="264"
@@ -262,7 +193,7 @@
 
             <li class="section-list-team">
               <img
-                srcset="./images/2(2x).jpg 2x"
+                srcset="./images/2.jpg 1x, ./images/2-2x.jpg 2x"
                 src="./images/2.jpg"
                 alt="Tom_Ford"
                 width="264"
@@ -307,7 +238,7 @@
 
             <li class="section-list-team">
               <img
-                srcset="./images/3(3x).jpg 2x"
+                srcset="./images/img.jpg 1x, ./images/3-2x.jpg 2x"
                 src="./images/img.jpg"
                 alt="Camila_Garcia"
                 width="264"
@@ -352,7 +283,7 @@
 
             <li class="section-list-team">
               <img
-                srcset="./images/4(4x).jpg 2x"
+                srcset="./images/4.jpg 1x, ./images/4-2x.jpg 2x"
                 src="./images/4.jpg"
                 alt="Danie_Wilson"
                 width="264"
@@ -408,6 +339,7 @@
               <div class="portfolio-img-wrapper">
                 <img
                   src="./images/bank.mob.jpg"
+                  width="288"
                   srcset="
                     ./images/bank.mob.jpg   288w,
                     ./images/bank.mob2x.jpg 576w,
@@ -440,6 +372,7 @@
               <div class="portfolio-img-wrapper">
                 <img
                   src="./images/Cash.mob.jpg"
+                  width="288"
                   srcset="
                     ./images/Cash.mob.jpg   288w,
                     ./images/cash.mob2x.jpg 576w,
@@ -472,6 +405,7 @@
               <div class="portfolio-img-wrapper">
                 <img
                   src="./images/medit.mob.jpg"
+                  width="288"
                   srcset="
                     ./images/medit.mob.jpg   288w,
                     ./images/medit.mob2x.jpg 576w,
@@ -504,6 +438,7 @@
               <div class="portfolio-img-wrapper">
                 <img
                   src="./images/taxi.mob.jpg"
+                  width="288"
                   srcset="
                     ./images/taxi.mob.jpg    288w,
                     ./images/taxi.mob.2x.jpg 576w,
@@ -535,6 +470,7 @@
               <div class="portfolio-img-wrapper">
                 <img
                   src="./images/screen.mob.jpg"
+                  width="288"
                   srcset="
                     ./images/screen.mob.jpg   288w,
                     ./images/screen.mob2x.jpg 576w,
@@ -566,6 +502,7 @@
               <div class="portfolio-img-wrapper">
                 <img
                   src="./images/online.mob.jpg"
+                  width="288"
                   srcset="
                     ./images/online.mob.jpg    288w,
                     ./images/online.mob.2x.jpg 576w,
@@ -670,7 +607,76 @@
       </div>
     </footer>
 
-    <div class="backform hide-popup is-hidden">
+    <div class="mobile-menu">
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close" type="button">
+          <svg class="close-icon-menu" width="8" height="8">
+            <use href="./images/icons.svg#icon-svgicon-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu-nav">
+          <ul class="nav-list-menu">
+            <li>
+              <a href="./index.html" class="list-header-menu active">
+                Studio
+              </a>
+            </li>
+            <li>
+              <a href="" class="list-header-menu"> Portfolio </a>
+            </li>
+            <li>
+              <a href="" class="list-header-menu"> Contacts </a>
+            </li>
+          </ul>
+        </nav>
+        <address>
+          <ul class="contact-mail-tel-menu">
+            <li>
+              <a href="tel:+110001111111" class="address-menu active"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a href="mailto:info@devstudio.com" class="address-menu"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <div>
+          <ul class="svg-contact-all-menu">
+            <li>
+              <a class="svg-contact-menu" href="#">
+                <svg width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-2"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a class="svg-contact-menu" href="#">
+                <svg width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-1"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a class="svg-contact-menu" href="#">
+                <svg width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="svg-contact-menu" href="#">
+                <svg width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="backform hide-popup is-open">
       <div class="all-form">
         <p class="name-form">Leave your contacts and we will call you back</p>
         <button class="close-popup" type="button">
